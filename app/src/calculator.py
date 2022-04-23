@@ -16,6 +16,6 @@ class Calculator():
 
 if __name__ == "__main__":
     calculator = Calculator()
-    print(calculator.substract(1,3))
-    print(calculator.divide(10,0))
-    print(calculator.divide(10,2))
+    print(f'result is: {calculator.substract(1,3)}')
+    print(f'result is: {calculator.divide(10,0)}')
+    print(f'result is: {calculator.divide(10,2)}')
